@@ -1,27 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ChaiKaapi Talegaon Reviews</title>
+
 <style>
-body{font-family:Arial,sans-serif;background:#fff8ef;text-align:center;padding:30px}
-.btn{display:block;width:260px;margin:15px auto;padding:15px;border-radius:10px;text-decoration:none;font-size:20px;font-weight:bold;color:#fff}
-.google{background:#4285F4}
-.zomato{background:#E23744}
+body{
+margin:0;
+padding:0;
+font-family:Arial,sans-serif;
+background:#f8f8f8;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.card{
+background:#fff;
+width:340px;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+text-align:center;
+}
+
+.logo{
+width:140px;
+height:140px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+h1{
+margin:10px 0;
+font-size:28px;
+color:#222;
+}
+
+p{
+color:#666;
+margin-bottom:25px;
+}
+
+.btn{
+display:block;
+text-decoration:none;
+padding:16px;
+margin:15px 0;
+border-radius:12px;
+font-size:20px;
+font-weight:bold;
+color:white;
+transition:.3s;
+}
+
+.google{
+background:#4285F4;
+}
+
+.zomato{
+background:#E23744;
+}
+
+.btn:hover{
+transform:scale(1.03);
+}
 </style>
+
 </head>
+
 <body>
+
+<div class="card">
+
+<img class="logo" src="https://i.imgur.com/q2J2v0m.png" alt="Logo">
+
 <h1>ChaiKaapi Talegaon</h1>
+
 <p>Choose where to review us ❤️</p>
 
-<a class="btn google" href="https://search.google.com/local/writereview?placeid=ChIJFyOlqOmvwjsR5-iudu1jiyc">
+<a class="btn google" href="PASTE_YOUR_GOOGLE_REVIEW_LINK_HERE">
 ⭐ Google Review
 </a>
 
-<a class="btn zomato" href="https://link.zomato.com/xqzv/rshare?id=143588131014b94a3">
+<a class="btn zomato" href="PASTE_YOUR_ZOMATO_LINK_HERE">
 🍽️ Zomato Review
 </a>
+
+</div>
 
 </body>
 </html>
